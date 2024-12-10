@@ -38,3 +38,13 @@ python convert_rrb_word_to_xml.py <input_folder> <metadata_file>
 ## Fehlerbehandlung
 
 Das Skript überprüft automatisch, ob die Word-Dateien korrekt verarbeitet werden können. Falls Fehler auftreten, werden diese in `errorfile.xlsx` dokumentiert.
+
+
+## Mögliche Weiterentwicklungen / Fehlerbehebungen
+
+- **Ersetzen der XML-Datei, wenn diese bereits vorhanden ist**: Im Moment werden die Daten bei einer erneuten analogen Anwendung des Skripts nocheinmal in das bereits bestehende XML geschrieben. 
+- **Fehlerhandling und Validierung**: Verbesserung des Errorhandlings und zusätzlich eine Validierung nach TEI-Standard durchführen.
+- **Behandlung von `<p/>`-Tags**: Löschen von leeren Absätzen (`<p/>`-Tags)
+- **Tabellen mit verbundenen Zellen**: Korrekte Umsetzung von Tabellen mit `colspan` und `rowspan`.
+- **Zentrierte Inhalte**: Optimierung der Konvertierung von zentrierten Texten und Tabellen.
+- **[up.]**: Automatische Handhabung und Konvertierung von der Seitenangabe **[up.]** in den Metadaten.
