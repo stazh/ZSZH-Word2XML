@@ -44,7 +44,9 @@ Das Skript überprüft automatisch, ob die Word-Dateien korrekt verarbeitet werd
 
 - **Ersetzen der XML-Datei, wenn diese bereits vorhanden ist**: Im Moment werden die Daten bei einer erneuten analogen Anwendung des Skripts nocheinmal in das bereits bestehende XML geschrieben. 
 - **Fehlerhandling und Validierung**: Verbesserung des Errorhandlings und zusätzlich eine Validierung nach TEI-Standard durchführen.
+- **Bessere Output-Ordnerstruktur**
 - **Behandlung von `<p/>`-Tags**: Löschen von leeren Absätzen (`<p/>`-Tags)
 - **Tabellen mit verbundenen Zellen**: Korrekte Umsetzung von Tabellen mit `colspan` und `rowspan`.
 - **Zentrierte Inhalte**: Optimierung der Konvertierung von zentrierten Texten und Tabellen.
-- **[up.]**: Automatische Handhabung und Konvertierung von der Seitenangabe **[up.]** in den Metadaten.
+- **[up.]**: Automatische Handhabung und Konvertierung von der Seitenangabe **[up.]** (=unpaginiert) in den Metadaten.
+- **Integrieren von KRP und OS**: Dieses Skript funktioniert nur für die Konvertierung von RRB. Um auch die KRP und OS damit konvertieren zu können, müssten einige Anpassungen vorgenommen werden (gewisse Metadaten sind hartkodiert).
