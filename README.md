@@ -1,4 +1,4 @@
-## Zentrale Serien des Kantons Zürich (ZSZH)
+### Zentrale Serien des Kantons Zürich (ZSZH)
 
 Das Staatsarchiv des Kantons Zürich archiviert und publiziert die zentralen Dokumente der Regierungs-, Parlaments- und Verwaltungstätigkeit des Kantons Zürich seit der Gründung des modernen Staatswesens im Jahr 1803. Zu den zentralen Serien gehören:
 
