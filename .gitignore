@@ -1,0 +1,6 @@
+# Ignoriere errorfile.xlsx, egal wo es sich befindet
+**/errorfile.xlsx
+
+# Ignoriere alle Ordner, die mit _XML oder _Fehler enden, egal wo sie sich befinden
+**/*_XML/
+**/*_Fehler/
