@@ -17,7 +17,7 @@ Im Zuge dieser Neugestaltung wurde beschlossen, die bisherigen Word-Dokumente du
 
 ### Konvertierungsprozess
 
-Bereits ab 2017 wurde schrittweise damit begonnen, die Word-Dokumente der Serien **OS**, **KRP** und **RRB** mittels [VBA](scripts/VBA)- und später [Python-Skripten](scripts/python) in **XML** nach dem **TEI-Standard** zu konvertieren. Diese konvertierten XML-Dateien wurden anschließend als **Open Government Data (OGD)** Datensätze veröffentlicht, die maschinenlesbar sind.
+Bereits ab 2017 wurde schrittweise damit begonnen, die Word-Dokumente der Serien **OS**, **KRP** und **RRB** mittels [VBA](scripts/VBA)- und später [Python-Skripten](scripts/python) in **XML** nach dem **TEI-Standard** zu konvertieren. Diese konvertierten XML-Dateien wurden anschliessend als **Open Government Data (OGD)** Datensätze veröffentlicht, die maschinenlesbar sind.
 
 Dank der Verwendung von Word-Vorlagen konnten Metadaten wie **Titel**, **Signatur** und **Datum** automatisiert in das TEI-Format überführt werden. Zudem ermöglichte die konsistente Formatierung der Dokumente eine präzise Extraktion von Textelementen wie **Untertiteln**, **Marginalien** und **Seitenumbrüchen** mittels Mustererkennung.
 
