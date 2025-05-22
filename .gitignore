@@ -4,3 +4,6 @@
 # Ignoriere alle Ordner, die mit _XML oder _Fehler enden, egal wo sie sich befinden
 **/*_XML/
 **/*_Fehler/
+
+# Ignoriere die Logfiles des Skripts "remove_xml_stylesheet_element.py"
+scripts/python/remove_xml_stylesheet_element/logs/

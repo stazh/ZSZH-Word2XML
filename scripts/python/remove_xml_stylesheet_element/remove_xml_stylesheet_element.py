@@ -29,9 +29,9 @@ def remove_xml_stylesheet(directory):
 
 if __name__ == "__main__":
     # Create a dynamic log filename with datetime
-    log_filename = f'logs/log_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
+    log_filename = f'scripts/python/remove_xml_stylesheet_element/logs/log_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
     logging.basicConfig(filename=log_filename, level=logging.INFO)
-    data_directory = "/Users/stazh/Documents/zszh-data-recovery/zszh-data/data/RRB"
+    data_directory = "/Users/stazh/Documents/Daten/ABL_XML_NER_1954-1979_undkorr/persistent_errors"
     logging.info("Processing directory: %s", os.path.abspath(data_directory))
     modified_count = remove_xml_stylesheet(data_directory)
     logging.info("Total modified files: %d", modified_count)
